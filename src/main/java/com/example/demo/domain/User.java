@@ -1,6 +1,10 @@
 package com.example.demo.domain;
 
+import org.springframework.data.annotation.Id;
+
 import java.io.Serializable;
+import java.lang.annotation.Documented;
+import java.util.Collection;
 import java.util.Objects;
 
 public class User implements Serializable {
